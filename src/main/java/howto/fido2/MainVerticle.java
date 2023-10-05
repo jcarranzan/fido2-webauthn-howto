@@ -17,7 +17,7 @@ public class MainVerticle extends AbstractVerticle {
     // tag::database[]
     // Dummy database, real world workloads
     // use a persistent store or course!
-    InMemoryStore database = new InMemoryStore();
+    howto.fido2.InMemoryStore database = new howto.fido2.InMemoryStore();
     // end::database[]
 
     // tag::setup[]
